@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* header section */
+.logo{
+   height: 50px;
+   background-color: black;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    background-color: black;    
+    padding: 5px 11%;    
+}
+ul{
+    float: right;
+    /* padding: 10px 20px; */
+   
+}
+ul li{
+    display: inline-block;    
+}
+li{    
+    list-style-type: none;    
+    padding: 14px 26px;
+}
+ul li a{    
+    text-decoration: none;
+    color: #fff;    
+}
+ul li a:hover{
+    color: #e9204f;
+}
+section{
+    background-color: black;
+}
+.hero-section{    
+    color: #fff;
+}
+
+/* hero-section */
+.hero-section{   
+    margin-top: 0;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hero-section .left-side .btnProjects{
+    margin-top: 15px; 
+    padding: 10px 30px;
+    background-color: #D91C23;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+}
+.hero-section .left-side .btnProjects:hover{
+    display: inline-block;
+    background-color: #000000;
+    border: red;
+    outline: dotted;
+    transition: all ease 0.50s;
+}
+.name{
+    font-size: 25px;
+    font-weight: 800;
+    word-spacing: 5px;
+    color: #D91C23;
+}
+.left-side p{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.left-side h3{   
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
