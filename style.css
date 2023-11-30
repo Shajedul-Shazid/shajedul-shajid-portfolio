@@ -51,7 +51,7 @@ ul li a:hover{
     align-items: center;
     justify-content: space-around;
 }
-.btnProjects{
+.btn{
     margin-top: 15px; 
     padding: 10px 30px;
     background-color: #D91C23;
@@ -62,7 +62,7 @@ ul li a:hover{
     outline: none;
     border: none;
 }
-.btnProjects:hover{
+.btn:hover{
     display: inline-block;
     background-color: #000000;
     border: red;
@@ -124,3 +124,47 @@ h2,p{
 
 /* Services Section */
 
+.services-section{
+    background-color: black;
+   
+    /* display: flex;
+    align-items: center;
+    text-align: center; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    height: 500px;
+}
+.services-section i{
+   background-color: white;
+   font-size: 40px;
+   /* padding-bottom: 10px; */
+   padding: 10px 25px;
+   border-radius: 6px;
+}
+.services-section,.service,.moto{
+   text-align: center;
+}
+.web-design{
+   /* width: 33.33%; */
+   background-color: #191919;
+  
+}
+.web-development{
+    /* width: 33.33%; */
+    background-color: #191919;
+    padding: 45px 30px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+}
+.logo-design{
+    /* width: 33.33%; */
+    background-color: #191919;    
+}
+.service-head{
+    margin-top: 20px;
+}
+.services-section p{
+    line-height: 20px;
+    text-align: center;
+}
